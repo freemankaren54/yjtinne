@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://wap.fpurbs.asia/blog/2605550.sHtMl
+
+原标题：golang 系统设计 http3 quic 简单原理了解
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://wap.fpurbs.asia/blog/9371360.sHtMl
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://wap.fpurbs.asia/blog/4821133.sHtMl
+
+原标题：WSL 搭建 Windows Linux 开发环境
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://wap.fpurbs.asia/blog/6057937.sHtMl
+
+原标题：Practice：实现接口幂等性多种方案对比实践
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://wap.fpurbs.asia/blog/6579348.sHtMl
+
+原标题：数据库连接及时关闭连接泄漏
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://wap.fpurbs.asia/blog/4913790.sHtMl
+
+原标题：golang 系统设计状态字段枚举约束设计思路
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://wap.fpurbs.asia/blog/0490135.sHtMl
+
+原标题：项目语义化版本号规范管理
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.fpurbs.asia/blog/8277148.sHtMl
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://wap.fpurbs.asia/blog/8297927.sHtMl
+
+原标题：多线程线程安全脏数据规避
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://wap.fpurbs.asia/blog/5047902.sHtMl
+
+原标题：项目语义化版本号规范管理
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://wap.fpurbs.asia/blog/9380479.sHtMl
+
+原标题：运维笔记：系统监控指标大盘搭建实操
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：http://wap.fpurbs.asia/blog/6046929.sHtMl
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://wap.fpurbs.asia/blog/3726811.sHtMl
+
+原标题：架构笔记：WebSocket大规模连接服务架构
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://wap.fpurbs.asia/blog/8279147.sHtMl
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://wap.fpurbs.asia/blog/5913245.sHtMl
+
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://wap.fpurbs.asia/blog/1365364.sHtMl
+
+原标题：golang 系统设计对象池复用减少内存分配
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://wap.fpurbs.asia/blog/4546778.sHtMl
+
+原标题：坑点：Docker资源限制未设置导致宿主机卡死
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://wap.fpurbs.asia/blog/8358715.sHtMl
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://wap.fpurbs.asia/blog/3060282.sHtMl
+
+原标题：Issue：浏览器缓存ServiceWorker导致旧页面常驻
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://wap.fpurbs.asia/blog/6402919.sHtMl
+
+原标题：golang defer panic 异常处理
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://wap.fpurbs.asia/blog/1524837.sHtMl
+
+原标题：静态网页 HTML CSS 快速入门实战
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://wap.fpurbs.asia/blog/1556093.sHtMl
+
+原标题：项目实践：本地模拟多节点分布式系统实践
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://wap.fpurbs.asia/blog/8264583.sHtMl
+
+原标题：安全笔记：第三方SDK安全风险评估要点
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://wap.fpurbs.asia/blog/7906812.sHtMl
+
+原标题：线上接口超时故障排查思路
+简介：golang multipart 表单文件上传解析，服务端解析 multipart 表单，获取上传文件与表单字段。
+ | 原文链接：http://wap.fpurbs.asia/blog/0491257.sHtMl
+
+原标题：跨库查询性能优化处理
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://wap.fpurbs.asia/blog/9670259.sHtMl
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：golang go mod 私有 git 仓库配置，配置 go mod 拉取私有仓库代码，处理私有模块依赖拉取问题。
+ | 原文链接：http://wap.fpurbs.asia/blog/5349034.sHtMl
+
+原标题：golang redis lua 脚本原子操作
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://wap.fpurbs.asia/blog/3793582.sHtMl
+
+原标题：跨库查询性能优化处理
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://wap.fpurbs.asia/blog/6157902.sHtMl
+
+原标题：Practice：模拟磁盘满，验证服务降级表现
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://wap.fpurbs.asia/blog/9616716.sHtMl
+
+原标题：golang 链路 traceId 透传中间件
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://wap.fpurbs.asia/blog/7373516.sHtMl
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://wap.fpurbs.asia/blog/9602836.sHtMl
+
+原标题：看懂报错日志快速定位问题
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://wap.fpurbs.asia/blog/1825037.sHtMl
+
+原标题：从零学习简单分布式ID生成思路
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://wap.fpurbs.asia/blog/9481338.sHtMl
+
+原标题：Performance：数据库join优化，大表join规避
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://wap.fpurbs.asia/blog/1032803.sHtMl
+
+原标题：Docker 网络模式容器互通设置
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://wap.fpurbs.asia/blog/8702905.sHtMl
+
+原标题：安全复盘：定时任务权限过大风险管控
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://wap.fpurbs.asia/blog/5044615.sHtMl
+
+原标题：golang 系统设计 rest 错误返回格式统一规范
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://wap.fpurbs.asia/blog/9814013.sHtMl
+
+原标题：死信队列处理消息阻塞业务
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：http://wap.fpurbs.asia/blog/5362903.sHtMl
+
+原标题：golang 系统设计 ci 流水线安全管控思路
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：http://wap.fpurbs.asia/blog/0088868.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计分布式任务调度
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://wap.fpurbs.asia/blog/8807358.sHtMl
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://wap.fpurbs.asia/blog/2035146.sHtMl
+
+原标题：超大数据集分页性能优化方案
+简介：vite 项目配置与构建提速技巧，讲解 vite 配置优化手段，提升开发热更新速度与生产构建打包效率。
+ | 原文链接：http://wap.fpurbs.asia/blog/6589770.sHtMl
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://wap.fpurbs.asia/blog/2108914.sHtMl
+
+原标题：日志输出规范防止磁盘爆满
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://wap.fpurbs.asia/blog/2965347.sHtMl
+
+原标题：nodejs 定时任务生产环境避坑
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://wap.fpurbs.asia/blog/4354680.sHtMl
+
+原标题：Security：Web常见安全漏洞原理与修复清单
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.fpurbs.asia/blog/5707603.sHtMl
+
+原标题：踩坑：批量MQ消费失败直接无限重试消息爆炸
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://wap.fpurbs.asia/blog/5696979.sHtMl
+
+原标题：Docker 容器网络不通排查
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://wap.fpurbs.asia/blog/8796773.sHtMl
+
+原标题：golang 系统设计 lru 缓存算法实现思路
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://wap.fpurbs.asia/blog/1030181.sHtMl
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://wap.fpurbs.asia/blog/4356758.sHtMl
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://wap.fpurbs.asia/blog/1903684.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://wap.fpurbs.asia/blog/0791472.sHtMl
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：http://wap.fpurbs.asia/blog/2613471.sHtMl
+
+原标题：开发复盘：内存缓存LRU淘汰策略实现实践
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://wap.fpurbs.asia/blog/5826703.sHtMl
+
+原标题：入门实践：实现简单文件读写功能
+简介：程序日志分级输出规范实践，区分日志等级，规范日志打印内容，合理输出日志，方便线上问题排查定位。
+ | 原文链接：http://wap.fpurbs.asia/blog/2614699.sHtMl
+
+原标题：实战项目：实现分布式任务调度最小原型
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.fpurbs.asia/blog/4235006.sHtMl
+
+原标题：golang docker 部署 prometheus 整套
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.fpurbs.asia/blog/7115794.sHtMl
+
+原标题：golang toml 配置文件解析教程
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://wap.fpurbs.asia/blog/5246115.sHtMl
+
+原标题：Docker 容器网络不通排查
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://wap.fpurbs.asia/blog/4114682.sHtMl
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://wap.fpurbs.asia/blog/9660215.sHtMl
+
+原标题：开源实践：参与开源项目从Issue到PR完整流程
+简介：golang 结构体 json 序列化坑点，梳理 Go 结构体 JSON 序列化高频坑点，字段大小写、零值处理问题。
+ | 原文链接：http://wap.fpurbs.asia/blog/8270249.sHtMl
+
+原标题：Troubleshoot：磁盘打满导致服务全部不可用
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://wap.fpurbs.asia/blog/4026704.sHtMl
+
+原标题：动态定时任务业务调度实现
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://wap.fpurbs.asia/blog/7156694.sHtMl
+
+原标题：实战项目：百万日志文件解析处理脚本实践
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://wap.fpurbs.asia/blog/8581250.sHtMl
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://wap.fpurbs.asia/blog/5947817.sHtMl
+
+原标题：踩坑记录：数值溢出造成业务ID错乱异常
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://wap.fpurbs.asia/blog/3669569.sHtMl
+
+原标题：golang 系统设计网关错误重试超时处理策略
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://wap.fpurbs.asia/blog/0714549.sHtMl
+
+原标题：GET POST 接口请求参数处理
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：http://wap.fpurbs.asia/blog/9370037.sHtMl
+
+原标题：Git 子模块更新代码不全修复
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://wap.fpurbs.asia/blog/4358037.sHtMl
+
+原标题：实战：多版本SDK兼容业务改造实践
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://wap.fpurbs.asia/blog/9603368.sHtMl
+
+原标题：新手参与开源社区贡献指南
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://wap.fpurbs.asia/blog/6247926.sHtMl
+
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://wap.fpurbs.asia/blog/4870260.sHtMl
+
+原标题：Performance：缓存策略优化，降低数据库压力
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://wap.fpurbs.asia/blog/5935693.sHtMl
+
+原标题：架构笔记：事件驱动架构适用场景与坑点
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://wap.fpurbs.asia/blog/7936814.sHtMl
+
+原标题：Git commit 钩子提交规范校验
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://wap.fpurbs.asia/blog/9369368.sHtMl
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：http://wap.fpurbs.asia/blog/5938926.sHtMl
+
+原标题：Debug：分页偏移量过大数据库查询性能暴跌
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://wap.fpurbs.asia/blog/2725602.sHtMl
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://wap.fpurbs.asia/blog/8570248.sHtMl
+
+原标题：golang mysql limit 大分页优化
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：http://wap.fpurbs.asia/blog/9491369.sHtMl
+
+三、实战开发｜Practice
+原标题：调优方案：消息批量消费提升MQ处理吞吐量
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://wap.fpurbs.asia/blog/0481276.sHtMl
+
+原标题：golang 系统设计故障定位排查通用步骤方法论
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：http://wap.fpurbs.asia/blog/6371367.sHtMl
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://wap.fpurbs.asia/blog/8568036.sHtMl
+
+原标题：后端大文件分片上传接口开发
+简介：golang sqlx 原生 SQL 代码简化，sqlx 简化原生 SQL 结果映射结构体，兼顾性能与开发效率。
+ | 原文链接：http://wap.fpurbs.asia/blog/6055692.sHtMl
+
+原标题：业务错误码体系设计方案
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://wap.fpurbs.asia/blog/2602492.sHtMl
+
+原标题：DevOps：制品仓库管理二进制产物版本
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://wap.fpurbs.asia/blog/6356470.sHtMl
+
+原标题：接口幂等性防重复请求实现
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://wap.fpurbs.asia/blog/5047814.sHtMl
+
+原标题：git stash 代码暂存切换分支
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://wap.fpurbs.asia/blog/2600247.sHtMl
+
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://wap.fpurbs.asia/blog/8579368.sHtMl
+
+原标题：golang 静态编译缩小镜像体积
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://wap.fpurbs.asia/blog/7167914.sHtMl
+
+原标题：端口占用释放资源重启服务
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://wap.fpurbs.asia/blog/9488003.sHtMl
+
+原标题：golang k8s pod 优雅关闭流程讲解
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://wap.fpurbs.asia/blog/6056816.sHtMl
+
+原标题：golang 系统设计大表结构变更不停机方案
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://wap.fpurbs.asia/blog/5936714.sHtMl
+
+原标题：golang mysql 时间类型选型避坑
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://wap.fpurbs.asia/blog/8380278.sHtMl
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://wap.fpurbs.asia/blog/6043547.sHtMl
+
+原标题：golang redis lua 脚本原子操作
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：http://wap.fpurbs.asia/blog/0591470.sHtMl
+
+原标题：golang mysql 分表自增 id 方案
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://wap.fpurbs.asia/blog/9379146.sHtMl
+
+原标题：方案对比：RPC、HTTP、gRPC场景选型分析
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://wap.fpurbs.asia/blog/9379369.sHtMl
+
+原标题：golang 系统设计本地缓存与分布式缓存
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://wap.fpurbs.asia/blog/7266033.sHtMl
+
+原标题：快速入门消息队列基础概念模型
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://wap.fpurbs.asia/blog/5046891.sHtMl
+
+原标题：nodejs http 服务性能调优实战
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：http://wap.fpurbs.asia/blog/5235814.sHtMl
+
+原标题：golang redis 缓存雪崩完整处理
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://wap.fpurbs.asia/blog/2268026.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://wap.fpurbs.asia/blog/7157925.sHtMl
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://wap.fpurbs.asia/blog/6046894.sHtMl
+
+原标题：golang 系统设计版本号语义化规范讲解
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://wap.fpurbs.asia/blog/6157924.sHtMl
+
+原标题：安全实践：生产环境禁止开启debug调试模式
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://wap.fpurbs.asia/blog/4689361.sHtMl
+
+原标题：线上故障：热点Key打满RedisCPU节点过载
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：http://wap.fpurbs.asia/blog/0491369.sHtMl
+
+原标题：golang 系统设计短信发送限流降级
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://wap.fpurbs.asia/blog/0492491.sHtMl
+
+原标题：golang 系统设计 git 工作流本地开发提交流程
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://wap.fpurbs.asia/blog/4125703.sHtMl
+
+原标题：golang 系统设计缓存空值防止缓存穿透实现
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://wap.fpurbs.asia/blog/8560379.sHtMl
+
+原标题：golang 系统设计滑动窗口限流代码示例
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：http://wap.fpurbs.asia/blog/1569136.sHtMl
+
+原标题：新手快速上手 Git 版本控制实操指南
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：http://wap.fpurbs.asia/blog/3461467.sHtMl
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://wap.fpurbs.asia/blog/7359368.sHtMl
+
+原标题：nestjs 全局返回格式统一处理
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://wap.fpurbs.asia/blog/3577925.sHtMl
+
+原标题：实践：数据库回滚点业务调试实践
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://wap.fpurbs.asia/blog/1382447.sHtMl
+
+原标题：前端打包产物体积压缩优化
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://wap.fpurbs.asia/blog/5136891.sHtMl
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://wap.fpurbs.asia/blog/0589003.sHtMl
+
+原标题：golang 灰度权重流量分发简单实现
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：http://wap.fpurbs.asia/blog/9344803.sHtMl
+
+原标题：运维笔记：磁盘inode耗尽故障排查处理
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://wap.fpurbs.asia/blog/8257891.sHtMl
+
+原标题：golang 系统设计 cpu 高占用排查步骤
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://wap.fpurbs.asia/blog/7935835.sHtMl
+
+四、架构设计｜Architecture
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://wap.fpurbs.asia/blog/9570269.sHtMl
+
+原标题：vite 插件开发自定义构建逻辑
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://wap.fpurbs.asia/blog/9155693.sHtMl
+
+原标题：Practice：实现批量任务失败断点续跑实践
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://wap.fpurbs.asia/blog/1261267.sHtMl
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://wap.fpurbs.asia/blog/5034694.sHtMl
+
+原标题：Debug：长连接未设置心跳，连接僵死不回收
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://wap.fpurbs.asia/blog/6781561.sHtMl
+
+原标题：nodejs 脚手架工具开发完整教程
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://wap.fpurbs.asia/blog/0367125.sHtMl
+
+原标题：缓存过期打散防止缓存雪崩
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://wap.fpurbs.asia/blog/1778368.sHtMl
+
+原标题：golang 跨域处理中间件编写
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://wap.fpurbs.asia/blog/5904892.sHtMl
+
+原标题：项目依赖安全扫描漏洞防范
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://wap.fpurbs.asia/blog/6894791.sHtMl
+
+原标题：golang mysql 读写分离简单实现
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://wap.fpurbs.asia/blog/1265667.sHtMl
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://wap.fpurbs.asia/blog/5998978.sHtMl
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://wap.fpurbs.asia/blog/8269703.sHtMl
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://wap.fpurbs.asia/blog/9489838.sHtMl
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://wap.fpurbs.asia/blog/8270471.sHtMl
+
+原标题：部署实践：服务器SSH安全加固配置实践
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://wap.fpurbs.asia/blog/6125226.sHtMl
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://wap.fpurbs.asia/blog/5935760.sHtMl
+
+原标题：复盘总结：技术选型对比文档模板实践
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：http://wap.fpurbs.asia/blog/2602492.sHtMl
+
+原标题：配置与镜像分离防止信息泄露
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：http://wap.fpurbs.asia/blog/2714690.sHtMl
+
+?

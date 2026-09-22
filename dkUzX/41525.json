@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9607079.sHtMl
+
+原标题：golang 系统设计时间字段选型 datetime timestamp
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3050404.sHtMl
+
+原标题：设计思考：业务埋点架构日志埋点设计原则
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6382492.sHtMl
+
+原标题：golang redis 分布式计数器开发
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7416060.sHtMl
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：golang go‑zero api 接口开发与路由，go‑zero 编写 api 定义文件，生成代码开发 http 接口。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8505931.sHtMl
+
+原标题：Git 分支切换合并删除完整操作
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3150376.sHtMl
+
+原标题：运维笔记：CI流水线缓存策略加速构建速度
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2558182.sHtMl
+
+原标题：golang 项目环境变量加载方案
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4746260.sHtMl
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2938152.sHtMl
+
+原标题：golang 工具函数库封装思路
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2949181.sHtMl
+
+原标题：golang 单例模式实现几种方式
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3646252.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1527061.sHtMl
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5968582.sHtMl
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6383627.sHtMl
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0713037.sHtMl
+
+原标题：架构笔记：任务调度系统架构设计与可靠性
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8516920.sHtMl
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3938172.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9605860.sHtMl
+
+原标题：golang 系统设计本地缓存过期淘汰策略选型
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9638061.sHtMl
+
+原标题：排错：多实例部署session共享失效登录失效
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8605849.sHtMl
+
+原标题：golang 系统设计网关错误重试超时处理策略
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6049205.sHtMl
+
+原标题：排错：内网域名解析不稳定导致服务随机报错
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3046361.sHtMl
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9368771.sHtMl
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1364870.sHtMl
+
+原标题：Hands‑on：简易短消息模板渲染组件实践
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5261406.sHtMl
+
+原标题：webpack chunk 分包策略详解
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1602584.sHtMl
+
+原标题：踩坑：对象未释放，长时间运行内存持续上涨
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9380471.sHtMl
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6057137.sHtMl
+
+原标题：golang http 请求重试封装工具
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5946913.sHtMl
+
+原标题：消息消费重试次数限制防爆炸
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9380359.sHtMl
+
+原标题：golang k8s secret 加密敏感信息
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5935712.sHtMl
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0481478.sHtMl
+
+原标题：后端登录鉴权模块完整开发
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8268159.sHtMl
+
+原标题：项目依赖安全扫描漏洞防范
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0591558.sHtMl
+
+原标题：优化实践：接口批量合并减少网络请求次数
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4161426.sHtMl
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1935142.sHtMl
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7494820.sHtMl
+
+原标题：golang mysql 长连接短连接对比
+简介：golang hmac 签名生成校验示例，hmac 生成消息签名，做接口请求签名，校验数据不被篡改。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3049282.sHtMl
+
+原标题：性能笔记：数据库表字段设计影响查询性能
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9605848.sHtMl
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9602815.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计配置热更新不重启服务实现
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1713942.sHtMl
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5261360.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5494696.sHtMl
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0716081.sHtMl
+
+原标题：编译打包产物依赖分析解读
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2828142.sHtMl
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4483708.sHtMl
+
+原标题：调优方案：CDN优化静态资源访问延迟
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8293037.sHtMl
+
+原标题：golang 系统设计架构图绘制规范简单建议
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2938393.sHtMl
+
+原标题：golang 系统设计 protobuf json 性能对比
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8603916.sHtMl
+
+原标题：golang redis pipeline 批量操作
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0728071.sHtMl
+
+原标题：数据库连接及时关闭连接泄漏
+简介：golang 信号量控制并发数量，使用信号量控制并发，限制同时执行任务数量，保护下游资源。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5272416.sHtMl
+
+原标题：Security：文件路径穿越漏洞完整防护
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8595959.sHtMl
+
+原标题：方案对比：缓存更新策略Cache‑Aside读写模式
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5228172.sHtMl
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0725138.sHtMl
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6506748.sHtMl
+
+原标题：golang k8s rbac 权限控制配置示例
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4880294.sHtMl
+
+原标题：零基础理解前后端简单交互流程
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1116259.sHtMl
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4478670.sHtMl
+
+原标题：实践：Git大仓库历史清理减小仓库体积实践
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0045747.sHtMl
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1140192.sHtMl
+
+原标题：golang 信号捕获程序退出处理
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1535259.sHtMl
+
+原标题：数据库索引重建提升查询速度
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2535950.sHtMl
+
+原标题：golang kafka 批量发送消费优化
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9302815.sHtMl
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2946141.sHtMl
+
+原标题：实践：Git工作流主干开发团队协作实践
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8262704.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：golang go‑zero api 接口开发与路由，go‑zero 编写 api 定义文件，生成代码开发 http 接口。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5968352.sHtMl
+
+原标题：DNS TTL 配置域名切换生效
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8504916.sHtMl
+
+原标题：开源源码阅读拆解学习思路
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2536148.sHtMl
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6314948.sHtMl
+
+原标题：golang 系统设计分布式锁看门狗续期原理理解
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8427259.sHtMl
+
+原标题：golang 系统设计缓存一致性方案对比
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1936148.sHtMl
+
+原标题：golang 系统设计技术方案评审关注点清单参考
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3040181.sHtMl
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0825031.sHtMl
+
+原标题：nodejs 脚手架工具开发完整教程
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1816161.sHtMl
+
+原标题：一次JWT令牌过期时间异常问题复盘
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1824153.sHtMl
+
+原标题：磁盘 inode 耗尽文件创建失败
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3069472.sHtMl
+
+原标题：后端分页查询逻辑代码实现
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5262716.sHtMl
+
+原标题：golang 配置文件多环境加载
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6383516.sHtMl
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8291294.sHtMl
+
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3173404.sHtMl
+
+三、实战开发｜Practice
+原标题：golang ci 流水线代码质量扫描集成
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7594637.sHtMl
+
+原标题：业务幂等键设计防重复逻辑
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9615037.sHtMl
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4467359.sHtMl
+
+原标题：golang kafka 死信队列业务落地
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8700863.sHtMl
+
+原标题：golang mysql 分表 id 路由逻辑
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9379036.sHtMl
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang 云存储 s3 协议对象存储，go s3 客户端，兼容 minio 阿里云 oss，实现文件上传下载签名访问。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1830038.sHtMl
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4168364.sHtMl
+
+原标题：快速入门消息通知简单实现方案
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5969474.sHtMl
+
+原标题：性能复盘：系统上下文切换过高性能下降调优
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8500692.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8591818.sHtMl
+
+原标题：nodejs 消息队列消费服务开发
+简介：golang 结构体零值可用性原则，go 结构体尽量做到零值可用，不用初始化直接使用提升易用性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8717149.sHtMl
+
+原标题：golang 数据库慢查询监控实现
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4116949.sHtMl
+
+原标题：golang mysql 事务回滚异常处理
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8202030.sHtMl
+
+原标题：golang 系统设计 grpc proto 接口设计原则
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9604038.sHtMl
+
+原标题：Issue：防火墙拦截ICMP，MTU问题网络丢包
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8591715.sHtMl
+
+原标题：性能复盘：系统上下文切换过高性能下降调优
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4869692.sHtMl
+
+原标题：golang 系统设计延迟消息实现几种方案对比
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7483637.sHtMl
+
+原标题：接口请求重试容错机制实现
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6372547.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3747249.sHtMl
+
+原标题：Hands‑on：简易短链接服务完整开发实践
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3757251.sHtMl
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5262393.sHtMl
+
+原标题：项目实践：本地模拟多节点分布式系统实践
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8595939.sHtMl
+
+原标题：网络读取超时设置连接挂起防护
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0938959.sHtMl
+
+原标题：Hands‑on：实现WebSocket聊天室完整前后端demo
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6030272.sHtMl
+
+原标题：CI 流水线超时时间延长配置
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5294915.sHtMl
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4157283.sHtMl
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：JWT 令牌过期异常处理，捕获 JWT 过期、篡改异常，编写业务处理逻辑，引导用户重新获取令牌。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5283626.sHtMl
+
+原标题：安全笔记：第三方SDK安全风险评估要点
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1891148.sHtMl
+
+原标题：rebase 操作防止代码丢失
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6520679.sHtMl
+
+原标题：Issue：开源项目升级大版本后API不兼容踩坑
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7680746.sHtMl
+
+原标题：设计思考：消息顺序性架构保证与业务妥协
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6602708.sHtMl
+
+原标题：golang 系统设计数据库扩容几种方式
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7484504.sHtMl
+
+原标题：运维笔记：服务器磁盘内存监控告警配置
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7181693.sHtMl
+
+原标题：golang gitlab runner 部署与注册实操
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0717250.sHtMl
+
+原标题：golang 系统设计日志与 traceId 关联打印实现
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7003708.sHtMl
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2949155.sHtMl
+
+原标题：DevOps：制品仓库管理二进制产物版本
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2525929.sHtMl
+
+原标题：golang 系统设计 changelog 变更日志维护
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9717060.sHtMl
+
+原标题：进程线程并发基础概念讲解
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6595748.sHtMl
+
+原标题：快速入门：API接口调试完整实操步骤
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0750582.sHtMl
+
+四、架构设计｜Architecture
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：﻿http://book.tpneak.asia/blog/5271415.sHtMl
+
+原标题：golang mysql json 字段查询使用
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7381737.sHtMl
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2930281.sHtMl
+
+原标题：磁盘占满服务不可用清理方案
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0725031.sHtMl
+
+原标题：golang mysql 行锁表锁场景区分
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0718060.sHtMl
+
+原标题：从零学习简单分页逻辑实现思路
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9601253.sHtMl
+
+原标题：nodejs 单元测试 jest 实操教程
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：﻿http://book.tpneak.asia/blog/0495037.sHtMl
+
+原标题：golang mysql innodb 事务隔离级别
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：﻿http://book.tpneak.asia/blog/6474637.sHtMl
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9614911.sHtMl
+
+原标题：Debug：预加载逻辑错误服务启动时间成倍拉长
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7497950.sHtMl
+
+原标题：golang redis 分布式计数器开发
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：﻿http://book.tpneak.asia/blog/9505030.sHtMl
+
+原标题：Debug：时间回拨，定时任务调度逻辑错乱
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8595037.sHtMl
+
+原标题：golang es 查询语句 DSL 实操
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：﻿http://book.tpneak.asia/blog/8551393.sHtMl
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：﻿http://book.tpneak.asia/blog/3721401.sHtMl
+
+原标题：开源实践：给开源项目写单元测试贡献代码
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：﻿http://book.tpneak.asia/blog/4880933.sHtMl
+
+原标题：golang 系统设计缓存预热脚本编写实操
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：﻿http://book.tpneak.asia/blog/7900114.sHtMl
+
+原标题：全局本地依赖隔离冲突规避
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：﻿http://book.tpneak.asia/blog/1012125.sHtMl
+
+原标题：极简方式搭建个人技术文档站点
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：﻿http://book.tpneak.asia/blog/2603791.sHtMl
+
+?
